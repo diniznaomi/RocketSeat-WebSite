@@ -1,0 +1,252 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+#main
+{
+    margin: auto;
+    width: 1250px;
+    height: 720px;
+    border: solid 1px black;
+}
+
+#tela1
+{
+    width: 650px;
+    height: 720px;
+    background-color: #121214;;
+    position: absolute;
+    z-index:1;
+    float: left;
+}
+#tela2
+{
+    width: 800px;
+    height: 720px;
+    background-color: blue;
+    position: relative;
+    float: right;
+}
+#cabecalho
+{
+    width: 598px;
+    height: 115px;
+    margin: 5px 5px 0px 5px;
+    position: relative;
+    top: 20px;
+}
+
+#ponto-final-logo
+{
+    color: #04D361;
+}
+
+#textos-informativos
+{
+    width: 598px;
+    height: 150px;
+    margin: 0px 5px 5px 5px;
+    padding: 15px;
+    position: relative;
+    top: 60px;
+}
+#campo-email
+{
+    width: 750px;
+    margin: 0px 5px 5px 5px;
+    padding: 15px;
+}
+a
+{
+    font-family: "WorkSans-Light";
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration-line: none;
+    margin: 0px 5px 5px 5px;
+    padding: 15px;
+}
+.insira-email
+{
+    font-family: "WorkSans-Light";
+    font-size: 12px;
+}
+.campo-link-leitura
+{
+    margin: 0px 5px 5px 5px;
+    padding: 15px;
+
+}
+.logo-box
+{
+    width: 590px;
+    height: 100px;
+}
+.logo-img
+{
+    width: 550px;
+    height: 100px;
+    position: relative;
+    left: -55px;
+    
+}
+#leitura-imagem
+{
+    width: 800px;
+    height: 720px
+}
+#paragrafo-1
+{
+    color: rgb(75, 206, 75);
+    font-family: "Spartan-Black";
+    font-size: 18px;
+}
+#paragrafo-2
+{
+    color: rgb(255, 255, 255);
+    font-family: "Spartan-Black";
+    font-size: 12px;
+}
+#paragrafo-3
+{
+    color: rgb(255, 255, 255);
+    font-family: "WorkSans-Light";
+    font-size: 12px;
+}
+.seta-link
+{
+    background-color: blueviolet;
+    position: relative;
+   
+}
+.link-leitura
+{
+    font-family: "WorkSans-Light";
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration-line: none;
+    margin: 0px 5px 5px 5px;
+    padding: 15px;
+}
+
+
+/* 
+.espaco-box-email
+{
+    background-color: #04D361;
+    width: 15px;
+    display: inline; 
+}*/
+
+.botao-enviar-email
+{
+    background-color: blueviolet;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+}
+.alinhar-email
+{
+    width: 765px;
+    padding: 0;
+    margin: 0px 5px 5px 5px;
+    position: relative;
+    top: 95px;
+}
+.form-email
+{
+    position: relative;
+    width: 750px;
+}
+.box-email
+{ 
+    margin: 0px 5px 5px 5px;
+    padding: 15px;
+    width: 800px;
+}
+.input-email
+{
+    height: 50px;
+    padding-top: 10px;
+}
+.cor-verde-email
+{
+    background-color: #04D361;
+    width: 6px;
+    height: 50px;
+    display: inline;
+    float: left;
+    position: relative;
+    left: 14px;
+    top: 7px;
+
+}
+.alinhar-leitura
+{
+    position: relative;
+    top: 115px;
+}
+
+
+/* --------------------- LABEL FLOAT ----------------------*/
+
+.label-float{
+  position: relative;
+  padding-top: 7px;
+  
+}
+.input-label
+{
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .6s ease-out;
+  -webkit-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+  -webkit-appearance:none;
+  border-radius: 0;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #3951b2;
+}
+
+.label-float input::placeholder{
+  color:blueviolet;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .6s ease-out;
+  -webkit-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+}
+
+.label-float input:required:invalid + label{
+  color: red;
+}
+.label-float input:focus:required:invalid{
+  border-bottom: 2px solid red;
+}
+.label-float input:required:invalid + label:before{
+  content: '*';
+}
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: blueviolet;
+}
+/*------------------------------------------------------------*/
